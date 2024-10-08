@@ -3,159 +3,219 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Planned Planthood</title>
   </head>
   <body>
-    <header class="container">
-      <img class="logo" src="./svg/Logo.svg" alt="" />
+    <!-- Header Section -->
+    <header class="header">
       <img
-        class="hand"
+        class="header__logo"
+        src="./svg/Logo.svg"
+        alt="Planned Planthood Logo" />
+      <img
+        class="header__image"
         src="./img/a68701ff1c5a9f853de7117ad656ca74d75f0389.jpg"
-        alt="Hand with flower inside" />
+        alt="Hand with flower" />
     </header>
 
+    <!-- Pictures Section -->
     <section class="pictures">
-      <div class="brown"><img src="./svg/seedling.svg" alt="" /></div>
-      <div class="green"><img src="./svg/dig.svg" alt="" /></div>
+      <div class="pictures__item pictures__item--brown">
+        <img class="pictures__image" src="./svg/seedling.svg" alt="Seedling" />
+      </div>
+      <div class="pictures__item pictures__item--green">
+        <img class="pictures__image" src="./svg/dig.svg" alt="Dig" />
+      </div>
     </section>
-    <h3 class="planned">PLANNED PLANTHOOD</h3>
 
+    <!-- Main Heading -->
+    <h3 class="heading--main">PLANNED PLANTHOOD</h3>
+
+    <!-- Tips Section -->
     <section class="tips">
-      <div class="text">
-        <h4>Säsong att så</h4>
-        <p>
+      <article class="tips__content">
+        <h4 class="tips__title">Säsong att så</h4>
+        <p class="tips__text">
           Våren är äntligen här i kollektivet! Lorem ipsum dolor sit amet
-          consectetur. Sit venenatis arcu nunc consectetur neque. Vel amet netus
-          amet eu elit.
+          consectetur.
         </p>
-        <button>SÅ-TIPS</button>
+        <button class="tips__button">SÅ-TIPS</button>
+      </article>
+      <div class="tips__icon">
+        <img
+          class="tips__icon-image"
+          src="./svg/Vectorseedpackage.svg"
+          alt="Seed Package Icon" />
       </div>
-      <div class="icon"><img src="./svg/Vectorseedpackage.svg" alt="" /></div>
-      <div class="line"></div>
+      <div class="tips__divider"></div>
     </section>
 
+    <!-- Plants-Card Section -->
     <section class="plants">
-      <h3>Våra planerade planteringar:</h3>
-      <div class="container-grid">
-        <div class="card">
-          <div class="img-display">
-            <img src="./img/gurka.bmp" alt="" />
+      <h3 class="plants__heading">Våra planerade planteringar:</h3>
+      <div class="plants__grid">
+        <article class="plants__card">
+          <div class="plants__image-container">
+            <img
+              class="plants__image"
+              src="./img/gurka.bmp"
+              alt="Gurka Plant" />
           </div>
+          <div class="plants__details plants__details--top">
+            <h4 class="plants__name">Gurka</h4>
+            <p class="plants__date">15 april 2024</p>
+          </div>
+          <div class="plants__details plants__details--bottom">
+            <h6 class="plants__owner">Rico Coolio</h6>
+            <img
+              class="plants__icon"
+              src="./svg/Vector (Stroke).svg"
+              alt="Details Icon" />
+          </div>
+        </article>
+        <article class="plants__card">
+          <div class="plants__image-container">
+            <img
+              class="plants__image"
+              src="./img/gurka.bmp"
+              alt="Gurka Plant" />
+          </div>
+          <div class="plants__details plants__details--top">
+            <h4 class="plants__name">Gurka</h4>
+            <p class="plants__date">15 april 2024</p>
+          </div>
+          <div class="plants__details plants__details--bottom">
+            <h6 class="plants__owner">Rico Coolio</h6>
+            <img
+              class="plants__icon"
+              src="./svg/Vector (Stroke).svg"
+              alt="Details Icon" />
+          </div>
+        </article>
+        <article class="plants__card">
+          <div class="plants__image-container">
+            <img
+              class="plants__image"
+              src="./img/gurka.bmp"
+              alt="Gurka Plant" />
+          </div>
+          <div class="plants__details plants__details--top">
+            <h4 class="plants__name">Gurka</h4>
+            <p class="plants__date">15 april 2024</p>
+          </div>
+          <div class="plants__details plants__details--bottom">
+            <h6 class="plants__owner">Rico Coolio</h6>
+            <img
+              class="plants__icon"
+              src="./svg/Vector (Stroke).svg"
+              alt="Details Icon" />
+          </div>
+        </article>
+        <article class="plants__card">
+          <div class="plants__image-container">
+            <img
+              class="plants__image"
+              src="./img/gurka.bmp"
+              alt="Gurka Plant" />
+          </div>
+          <div class="plants__details plants__details--top">
+            <h4 class="plants__name">Gurka</h4>
+            <p class="plants__date">15 april 2024</p>
+          </div>
+          <div class="plants__details plants__details--bottom">
+            <h6 class="plants__owner">Rico Coolio</h6>
+            <img
+              class="plants__icon"
+              src="./svg/Vector (Stroke).svg"
+              alt="Details Icon" />
+          </div>
+        </article>
+        <article class="plants__card">
+          <div class="plants__image-container">
+            <img
+              class="plants__image"
+              src="./img/gurka.bmp"
+              alt="Gurka Plant" />
+          </div>
+          <div class="plants__details plants__details--top">
+            <h4 class="plants__name">Gurka</h4>
+            <p class="plants__date">15 april 2024</p>
+          </div>
+          <div class="plants__details plants__details--bottom">
+            <h6 class="plants__owner">Rico Coolio</h6>
+            <img
+              class="plants__icon"
+              src="./svg/Vector (Stroke).svg"
+              alt="Details Icon" />
+          </div>
+        </article>
 
-          <div class="top">
-            <h4>Gurka</h4>
-            <p>15 april 2024</p>
-          </div>
-          <div class="bottom">
-            <h6>Rico Coolio</h6>
-            <img src="./svg/Vector (Stroke).svg" alt="" />
-          </div>
-        </div>
+        <!-- Repeat plant cards as needed -->
 
-        <div class="card">
-          <div class="img-display">
-            <img src="./img/tomat-01.bmp" alt="" />
+        <article class="plants__card">
+          <div class="plants__image-container">
+            <img
+              class="plants__image"
+              src="./img/tomat-01.bmp"
+              alt="Tomat Plant" />
           </div>
+          <div class="plants__details plants__details--top">
+            <h4 class="plants__name">Tomat</h4>
+            <p class="plants__date">20 april 2024</p>
+          </div>
+          <div class="plants__details plants__details--bottom">
+            <h6 class="plants__owner">Rico Coolio</h6>
+            <img
+              class="plants__icon"
+              src="./svg/Vector (Stroke).svg"
+              alt="Details Icon" />
+          </div>
+        </article>
 
-          <div class="top">
-            <h4>Gurka</h4>
-            <p>15 april 2024</p>
-          </div>
-          <div class="bottom">
-            <h6>Rico Coolio</h6>
-            <img src="./svg/Vector (Stroke).svg" alt="" />
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="img-display">
-            <img src="./img/tomat-02.bmp" alt="" />
-          </div>
-
-          <div class="top">
-            <h4>Gurka</h4>
-            <p>15 april 2024</p>
-          </div>
-          <div class="bottom">
-            <h6>Rico Coolio</h6>
-            <img src="./svg/Vector (Stroke).svg" alt="" />
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="img-display">
-            <img src="./img/sockerartor.bmp" alt="" />
-          </div>
-
-          <div class="top">
-            <h4>Gurka</h4>
-            <p>15 april 2024</p>
-          </div>
-          <div class="bottom">
-            <h6>Rico Coolio</h6>
-            <img src="./svg/Vector (Stroke).svg" alt="" />
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="img-display">
-            <img src="./img/sockerartor.bmp" alt="" />
-          </div>
-
-          <div class="top">
-            <h4>Gurka</h4>
-            <p>15 april 2024</p>
-          </div>
-          <div class="bottom">
-            <h6>Rico Coolio</h6>
-            <img src="./svg/Vector (Stroke).svg" alt="" />
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="img-display">
-            <img src="./img/sockerartor.bmp" alt="" />
-          </div>
-
-          <div class="top">
-            <h4>Gurka</h4>
-            <p>15 april 2024</p>
-          </div>
-          <div class="bottom">
-            <h6>Rico Coolio</h6>
-            <img src="./svg/Vector (Stroke).svg" alt="" />
-          </div>
-        </div>
+        <!-- Add more cards as needed -->
       </div>
     </section>
-    <div class="btn-fler">
-      <button class="fler">VISA FLER</button>
+
+    <!-- Show More Button -->
+    <div class="button-wrapper">
+      <button class="button-wrapper__show-more">VISA FLER</button>
     </div>
 
-    <section class="tips--down">
-      <div class="text">
-        <div class="icon"><img src="./svg/Vectorseedpackage.svg" alt="" /></div>
-        <h4>Våra tidigare odlingar</h4>
-        <p>
+    <!-- Previous Tips Section -->
+    <section class="previous-tips">
+      <div class="previous-tips__content">
+        <div class="previous-tips__icon">
+          <img
+            class="previous-tips__icon-image"
+            src="./svg/Vectorseedpackage.svg"
+            alt="Seed Package Icon" />
+        </div>
+        <h4 class="previous-tips__heading">Våra tidigare odlingar</h4>
+        <p class="previous-tips__description">
           Våren är äntligen här i kollektivet! Lorem ipsum dolor sit amet
-          consectetur. Sit venenatis arcu nunc consectetur neque. Vel amet netus
-          amet eu elit.
+          consectetur.
         </p>
-
-        <button>Planterade plantor</button>
+        <button class="previous-tips__button">Planterade plantor</button>
       </div>
     </section>
 
+    <!-- Bottom Image Section -->
     <div class="bottom-img">
-      <div class="top">
-        <img src="./svg/Logo.svg" alt="" />
+      <div class="bottom-img__top">
+        <img
+          class="bottom-img__logo"
+          src="./svg/Logo.svg"
+          alt="Planned Planthood Logo" />
       </div>
-      <div class="bottom">
-        <p>Vi hörs!</p>
+      <div class="bottom-img__bottom">
+        <p class="bottom-img__text">Vi hörs!</p>
       </div>
     </div>
-    <footer><a href="index.html">Till toppen av sidan</a></footer>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <a class="footer__link" href="index.html">Till toppen av sidan</a>
+    </footer>
   </body>
 </html>
