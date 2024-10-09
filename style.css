@@ -59,6 +59,12 @@
   margin: 10px;
 }
 
+/* NAV SECTION */
+
+.navbar {
+  display: none;
+}
+
 /* MAIN HEADING */
 .heading--main {
   margin: 20px 0;
@@ -370,6 +376,21 @@
   .header {
     flex-direction: row;
   }
+
+  .navbar {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 4px 4px 0px #03382f1c;
+  }
+  .navbar__link {
+    font-family: maven pro;
+    text-decoration: none;
+    color: #055647;
+    font-size: 20px;
+  }
+
   .hand {
     width: 100%;
     height: 100%;
