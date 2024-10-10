@@ -163,6 +163,7 @@
 .plants__card {
   box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
   min-width: 175px;
+  max-width: 270px;
 }
 
 .plants__remove {

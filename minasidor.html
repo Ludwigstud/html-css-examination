@@ -7,9 +7,14 @@
     <title>Mina Sidor</title>
   </head>
   <body>
-    
+    <nav class="navbar">
+      <a class="navbar__link" href="./index.html">PLANER</a>
+      <a class="navbar__link" href="#">HISTORIK</a>
+      <a class="navbar__link" href="#">TIPS</a>
+      <a class="navbar__link" href="#">LOGGA IN</a>
+    </nav>
     <!-- Mina sidor -->
-    <section class="hand">
+    <section class="hand" id="back">
       <img
         class="header__logo"
         src="./svg/Logo.svg"
@@ -26,11 +31,11 @@
     <section class="planering">
       <h2>Lägg till ny plantering:</h2>
       <div class="forms">
-        <div>
+        <div class="left">
           <label for="text">Planta:</label>
           <input type="text" />
         </div>
-        <div>
+        <div class="right">
           <label for="text">Datum:</label>
           <input type="text" />
         </div>
@@ -42,7 +47,7 @@
 
     <section class="planteringar">
       <h2>Dina planterade planteringar:</h2>
-      <div>
+      <div class="sections">
         <article class="plants__card">
           <div class="plants__image-container">
             <img
@@ -122,5 +127,9 @@
 <img  class="imgsize" src="./img_brown/vegetables.png" alt="vegetables on the ground">
 <img  class="imgsize" src="./img_brown/woman-hat.png" alt="Woman in a hat">
 </div>
+
+<footer>
+  <a class="back" href="#back"><p>Till toppen av sidan</p></a>
+</footer>
   </body>
 </html>
