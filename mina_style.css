@@ -25,6 +25,14 @@ body {
 	flex-direction: column;
 }
 
+.burgir {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 2%;
+	opacity: 0.7;
+}
+
 .hand {
 	position: relative;
 	padding: 0;
@@ -313,5 +321,8 @@ footer {
 		text-decoration: none;
 		color: #055647;
 		font-size: 20px;
+	}
+	.burgir {
+		display: none;
 	}
 }
