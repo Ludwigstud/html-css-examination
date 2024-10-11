@@ -269,14 +269,14 @@ footer {
 		display: flex;
 		flex-direction: row;
 		flex: 1;
-		div {
-			width: 100%;
-		}
+
 		.left {
 			margin-right: 15px;
+			width: 100%;
 		}
 		.right {
 			margin-left: 15px;
+			width: 100%;
 		}
 	}
 	.planering {
