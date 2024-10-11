@@ -1,135 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./mina_style.css" />
-    <title>Mina Sidor</title>
-  </head>
-  <body>
-    <nav class="navbar">
-      <a class="navbar__link" href="./index.html">PLANER</a>
-      <a class="navbar__link" href="#">HISTORIK</a>
-      <a class="navbar__link" href="#">TIPS</a>
-      <a class="navbar__link" href="#">LOGGA IN</a>
-    </nav>
-    <!-- Mina sidor -->
-    <section class="hand" id="back">
-      <img
-        class="header__logo"
-        src="./svg/Logo.svg"
-        alt="Planned Planthood Logo" />
-      <img
-        class="header__image"
-        src="./img/hand-picking-square.png"
-        alt="Hand with flower" />
-    </section>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="./mina_style.css" />
+		<title>Mina Sidor</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<a
+				class="navbar__link"
+				href="./index.html"
+				>PLANER</a
+			>
+			<a
+				class="navbar__link"
+				href="#"
+				>HISTORIK</a
+			>
+			<a
+				class="navbar__link"
+				href="#"
+				>TIPS</a
+			>
+			<a
+				class="navbar__link"
+				href="#"
+				>LOGGA IN</a
+			>
+		</nav>
 
-   <section class="wrapper">
-    <!-- Lägg till plantering -->
+		<header
+			class="hand"
+			id="back">
+			<img
+				class="header__logo"
+				src="./svg/Logo.svg"
+				alt="Planned Planthood Logo" />
+			<img
+				class="header__image"
+				src="./img/hand-picking-square.png"
+				alt="Hand with flower" />
+		</header>
 
-    <section class="planering">
-      <h2>Lägg till ny plantering:</h2>
-      <div class="forms">
-        <div class="left">
-          <label for="text">Planta:</label>
-          <input type="text" />
-        </div>
-        <div class="right">
-          <label for="text">Datum:</label>
-          <input type="text" />
-        </div>
-      </div>
-    </section>
-    <button class="add">LÄGG TILL</button>
+		<main class="wrapper">
+			<section class="planering">
+				<h2>Lägg till ny plantering:</h2>
+				<div class="forms">
+					<div class="left">
+						<label for="text">Planta:</label>
+						<input type="text" />
+					</div>
+					<div class="right">
+						<label for="text">Datum:</label>
+						<input type="text" />
+					</div>
+				</div>
+			</section>
 
-    <!-- Planerade planteringar -->
+			<button class="add">LÄGG TILL</button>
 
-    <section class="planteringar">
-      <h2>Dina planterade planteringar:</h2>
-      <div class="sections">
-        <article class="plants__card">
-          <div class="plants__image-container">
-            <img
-              class="plants__image"
-              src="./img/cucumber1.png"
-              alt="Gurka Plant" />
-          </div>
-          <div class="plants__details plants__details--top">
-            <h4 class="plants__name">Gurka</h4>
-            <p class="plants__date">15 april 2024</p>
-          </div>
-          <div class="plants__details plants__details--bottom">
-            <h6 class="plants__owner">Rico Coolio</h6>
-            <img
-              class="plants__icon"
-              src="./svg/Vector (Stroke).svg"
-              alt="Details Icon" />
-            <button class="plants__remove">TA BORT</button>
-          </div>
-        </article>
-      </div>
-    </section>
+			<section class="planteringar">
+				<h2>Dina planterade planteringar:</h2>
+				<section class="sections">
+					<article class="plants__card">
+						<div class="plants__image-container">
+							<img
+								class="plants__image"
+								src="./img/cucumber1.png"
+								alt="Gurka Plant" />
+						</div>
+						<div class="plants__details plants__details--top">
+							<h4 class="plants__name">Gurka</h4>
+							<p class="plants__date">15 april 2024</p>
+						</div>
+						<div class="plants__details plants__details--bottom">
+							<h6 class="plants__owner">Rico Coolio</h6>
+							<img
+								class="plants__icon"
+								src="./svg/Vector (Stroke).svg"
+								alt="Details Icon" />
+							<button class="plants__remove">TA BORT</button>
+						</div>
+					</article>
+				</section>
+			</section>
 
-    <section class="planteringar">
-      <h2>Dina planterade planteringar:</h2>
-      <div class="sections">
-        <article class="plants__card">
-          <div class="plants__image-container">
-            <img
-              class="plants__image"
-              src="./img/cucumber1.png"
-              alt="Gurka Plant" />
-          </div>
-          <div class="plants__details plants__details--top">
-            <h4 class="plants__name">Gurka</h4>
-            <p class="plants__date">15 april 2024</p>
-          </div>
-          <div class="plants__details plants__details--bottom">
-            <h6 class="plants__owner">Rico Coolio</h6>
-            <img
-              class="plants__icon"
-              src="./svg/Vector (Stroke).svg"
-              alt="Details Icon" />
-            <button class="plants__remove">TA BORT</button>
-          </div>
-        </article>
-        <article class="plants__card">
-          <div class="plants__image-container">
-            <img
-              class="plants__image"
-              src="./img/cucumber1.png"
-              alt="Gurka Plant" />
-          </div>
-          <div class="plants__details plants__details--top">
-            <h4 class="plants__name">Gurka</h4>
-            <p class="plants__date">15 april 2024</p>
-          </div>
-          <div class="plants__details plants__details--bottom">
-            <h6 class="plants__owner">Rico Coolio</h6>
-            <img
-              class="plants__icon"
-              src="./svg/Vector (Stroke).svg"
-              alt="Details Icon" />
-            <button class="plants__remove">TA BORT</button>
-          </div>
-        </article>
-      </div>
-    </section>
- </section>
-</section>
+			<section class="planteringar">
+				<h2>Ytterligare planterade planteringar:</h2>
+				<section class="sections">
+					<article class="plants__card">
+						<div class="plants__image-container">
+							<img
+								class="plants__image"
+								src="./img/cucumber1.png"
+								alt="Gurka Plant" />
+						</div>
+						<div class="plants__details plants__details--top">
+							<h4 class="plants__name">Gurka</h4>
+							<p class="plants__date">15 april 2024</p>
+						</div>
+						<div class="plants__details plants__details--bottom">
+							<h6 class="plants__owner">Rico Coolio</h6>
+							<img
+								class="plants__icon"
+								src="./svg/Vector (Stroke).svg"
+								alt="Details Icon" />
+							<button class="plants__remove">TA BORT</button>
+						</div>
+					</article>
+					<article class="plants__card">
+						<div class="plants__image-container">
+							<img
+								class="plants__image"
+								src="./img/cucumber1.png"
+								alt="Gurka Plant" />
+						</div>
+						<div class="plants__details plants__details--top">
+							<h4 class="plants__name">Gurka</h4>
+							<p class="plants__date">15 april 2024</p>
+						</div>
+						<div class="plants__details plants__details--bottom">
+							<h6 class="plants__owner">Rico Coolio</h6>
+							<img
+								class="plants__icon"
+								src="./svg/Vector (Stroke).svg"
+								alt="Details Icon" />
+							<button class="plants__remove">TA BORT</button>
+						</div>
+					</article>
+				</section>
+			</section>
+		</main>
 
-<div class="brown">
+		<section class="brown">
+			<img
+				class="imgsize"
+				src="./img_brown/picking-pepper.png"
+				alt="picking pepper" />
+			<img
+				class="imgsize"
+				src="./img_brown/watering.png"
+				alt="watering plants" />
+			<img
+				class="imgsize"
+				src="./img_brown/vegetables.png"
+				alt="vegetables on the ground" />
+			<img
+				class="imgsize"
+				src="./img_brown/woman-hat.png"
+				alt="Woman in a hat" />
+		</section>
 
-
-<img class="imgsize" src="./img_brown/picking-pepper.png" alt="picking pepper">
-<img class="imgsize" src="./img_brown/watering.png" alt="watering plants">
-<img  class="imgsize" src="./img_brown/vegetables.png" alt="vegetables on the ground">
-<img  class="imgsize" src="./img_brown/woman-hat.png" alt="Woman in a hat">
-</div>
-
-<footer>
-  <a class="back" href="#back"><p>Till toppen av sidan</p></a>
-</footer>
-  </body>
+		<footer>
+			<a
+				class="back"
+				href="#back"
+				><p>Till toppen av sidan</p></a
+			>
+		</footer>
+	</body>
 </html>
